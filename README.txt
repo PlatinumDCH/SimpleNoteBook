@@ -11,7 +11,7 @@ Notebook-App - consol application [create, edit, search] notes.
 
 ## Install and start
 ```bash
-
+git clone https://github.com/PlatinumDCH/SimpleNoteBook.git
 cd Notebook-App
 python menu.py
 ```
