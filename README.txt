@@ -1,6 +1,6 @@
 # Noteboool-app
 
-Notebool-App - consol application [create, edit, search] notes.
+Notebook-App - consol application [create, edit, search] notes.
 
 ## functions:
 - added notes
