@@ -1,35 +1,18 @@
+# Noteboool-app
 
-LAST_ID = 0
+Notebool-App - consol application [create, edit, search] notes.
 
-1.create current data format [y m d h m s]
-2. f change_id-> += 1
+## functions:
+- added notes
+- searsh notes by key-word
+- edit title and description notes
+- get all notes
+- note-menu 
 
-class Note:
-    data:str
-    title:str
-    created_date:str
-    id:Callable(change_id)
+## Install and start
+```bash
 
-    f search(filter:str)->bool:
-        filter in data | title
-    
-    f get_id -> int:
-    
-class Notebook:
-    notes:List[Note]
-
-    f new_note(data:str, title:str='')->None:
-        global LAST_ID += 1
-        notes.append (data, [,title], id)
-    
-    f searsh_note (id:int, data:str)
-    ->str|bool:
-        if id in notes
-            -> notes
-        
-    f modify_data()->bool:
-        ...
-    
-    f modify_title()-> bool:
-        ...
+cd Notebook-App
+python menu.py
+```
     
